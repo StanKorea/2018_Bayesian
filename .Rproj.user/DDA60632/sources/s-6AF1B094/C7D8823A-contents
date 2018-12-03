@@ -1,0 +1,16 @@
+library(rstan)
+setwd(getwd())
+df1 <- read.csv("data/EfronMorrisBB.txt", sep="\t")
+df <- with(df, data.frame(FirstName, LastName, 
+                          Hits, At.Bats, 
+                          RemainingAt.Bats,
+                          RemainingHits = SeasonHits - Hits));
+N <- dim(df)[1]
+K <- df$At.Bats
+y <- df$Hits
+K_new <- df$RemainingAt.Bats;
+y_new <- df$RemainingHits;
+
+M <- 10000;
+fit_pool <- stan(".stan", data=c("N", "K", "y", "K_new", "y_new"),
+                 iter=(M / 2), chains=4);

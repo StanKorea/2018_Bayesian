@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543800075924.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2096723688",
+    "id" : "E5D394E4",
+    "lastKnownWriteTime" : 1543798436,
+    "last_content_update" : 1543798436,
+    "path" : "~/Documents/GitHub/2018_Bayesian/stan_programs/8schools.stan",
+    "project_path" : "stan_programs/8schools.stan",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "stan"
+}
