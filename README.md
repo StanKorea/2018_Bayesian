@@ -5,21 +5,8 @@
 1. Lecture Slides
 Download from slides folder
 
-2. Please download this repository and open the RStudio project file `2018_Bayesian_StanKorea.Rproj`.
+2. Please download this repository and open the RStudio project file `BayesSNU_2018_StanKorea.Rproj`.
 
-3. Please download **rstan** package. https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started), 
+3. Open 0_installation.R and install rstan and other packages
+**rstan** package download: https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started)
 
-4. Please install the following packages:
-
-```r
-packages <- c(
-    'bayesplot', 
-    'ggplot2', 
-    'lubridate', 
-    'rmarkdown', 
-    'shinystan', 
-    'tidyverse',
-    'brms'
-)
-install.packages(packages)
-```
