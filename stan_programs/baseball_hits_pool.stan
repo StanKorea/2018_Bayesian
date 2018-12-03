@@ -12,6 +12,5 @@ parameters {
 }
 
 model {
-  ...
   y ~ binomial(K, phi);
 }

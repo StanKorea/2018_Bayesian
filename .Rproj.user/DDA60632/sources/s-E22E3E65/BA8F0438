@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543805838103.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1846680637",
+    "id" : "BA8F0438",
+    "lastKnownWriteTime" : 1543804514,
+    "last_content_update" : 1543804514,
+    "path" : "~/Documents/GitHub/2018_Bayesian/stan_programs/baseball_hits_no-pool.stan",
+    "project_path" : "stan_programs/baseball_hits_no-pool.stan",
+    "properties" : {
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "stan"
+}

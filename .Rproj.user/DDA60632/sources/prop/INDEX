@@ -1,5 +1,6 @@
 ~%2FDocuments%2FGitHub%2F2018_Bayesian%2F2_1_8schools.R="824B6AB9"
 ~%2FDocuments%2FGitHub%2F2018_Bayesian%2F2_2_Hierarchical_Partial_Pooling.R="92633F3C"
+~%2FDocuments%2FGitHub%2F2018_Bayesian%2F3_2_brms.R="E5214A81"
 ~%2FDocuments%2FGitHub%2F2018_Bayesian%2F3_shinystan_demo.R="40DB9C97"
 ~%2FDocuments%2FGitHub%2F2018_Bayesian%2F8schools.R="2E79CDD8"
 ~%2FDocuments%2FGitHub%2F2018_Bayesian%2FBaseball_Hits.stan="9AC3482B"
@@ -15,3 +16,6 @@
 ~%2FDocuments%2FGitHub%2F2018_Bayesian%2Fstan_models%2FRats.stan="64B8C27C"
 ~%2FDocuments%2FGitHub%2F2018_Bayesian%2Fstan_models%2FRats.txt="6D3377B5"
 ~%2FDocuments%2FGitHub%2F2018_Bayesian%2Fstan_programs%2F8schools.stan="1FB1157A"
+~%2FDocuments%2FGitHub%2F2018_Bayesian%2Fstan_programs%2FBaseball_Hits.stan="566B8950"
+~%2FDocuments%2FGitHub%2F2018_Bayesian%2Fstan_programs%2Fbaseball_hits_no-pool.stan="80B68715"
+~%2FDocuments%2FGitHub%2F2018_Bayesian%2Fstan_programs%2Fbaseball_hits_pool.stan="CEF88548"

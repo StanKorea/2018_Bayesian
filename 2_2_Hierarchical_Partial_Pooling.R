@@ -1,4 +1,6 @@
-setwd(getwd())
+
+#Example2: Baseball Hits
+
 library(rstan)
 
 df <- read.csv("data/EfronMorrisBB.txt", sep="\t")
@@ -22,11 +24,13 @@ fit_pool <- stan("stan_programs/baseball_hits_pool.stan", data=c("N", "K", "y", 
 ss_pool <- extract(fit_pool);
 print(fit_pool, c("phi"), probs=c(0.1, 0.5, 0.9));
 
+
 # Model 2: No Pooling
 fit_no_pool <- stan("stan_programs/baseball_hits_no-pool.stan", data=c("N", "K", "y", "K_new", "y_new"),
                     iter=(M / 2), chains=4);
 ss_no_pool <- extract(fit_no_pool);
 print(fit_no_pool, c("theta"), probs=c(0.1, 0.5, 0.9));
+
 
 # Model 3: Partial Pooling
 fit_hier <- stan("stan_programs/baseball_hits_hier.stan", data=c("N", "K", "y", "K_new", "y_new"),
@@ -63,4 +67,4 @@ plot_funnel<-
   geom_point(shape=19, alpha=0.15) +
   xlab("logit(theta[1])") + 
   ylab("log(kappa)");
-plot_funnel;
+plot_funnel

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543805841949.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3047723436",
+    "id" : "2B7A66F9",
+    "lastKnownWriteTime" : 1543804022,
+    "last_content_update" : 1543804022,
+    "path" : "~/Documents/GitHub/2018_Bayesian/stan_programs/baseball_hits_pool.stan",
+    "project_path" : "stan_programs/baseball_hits_pool.stan",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "stan"
+}

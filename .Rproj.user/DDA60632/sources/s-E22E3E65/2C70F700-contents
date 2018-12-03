@@ -1,0 +1,13 @@
+
+
+#package install
+packages <- c(
+  'bayesplot', 
+  'ggplot2', 
+  'lubridate', 
+  'rmarkdown', 
+  'shinystan', 
+  'tidyverse',
+  'brms'
+)
+install.packages(packages)
