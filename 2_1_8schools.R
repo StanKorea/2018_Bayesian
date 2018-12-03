@@ -12,7 +12,7 @@ schools_data <- list(
 # Sample from the Posterior Distribution
 library(rstan)
 fit1 <- stan(
-  file = "stan_programs/schools.stan",  # Stan program
+  file = "stan_programs/8schools.stan", # Stan program
   data = schools_data,                  # named list of data
   chains = 4,                           # number of Markov chains
   warmup = 1000,                        # number of warmup iterations per chain

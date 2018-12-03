@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1899039292",
+    "hash" : "0",
     "id" : "B9486192",
-    "lastKnownWriteTime" : 1543798608,
-    "last_content_update" : 1543798608,
+    "lastKnownWriteTime" : 1543803046,
+    "last_content_update" : 1543803046578,
     "path" : "~/Documents/GitHub/2018_Bayesian/2_1_8schools.R",
     "project_path" : "2_1_8schools.R",
     "properties" : {
+        "cursorPosition" : "14,10",
+        "scrollLine" : "0"
     },
     "relative_order" : 1,
     "source_on_save" : false,
